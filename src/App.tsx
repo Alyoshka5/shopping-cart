@@ -1,22 +1,21 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/home-page/HomePage';
 import ShopPage from './components/shop-page/ShopPage';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
 
-        <ul>
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/shop'>Shop</NavLink></li>
-        </ul>
+        <NavBar />
 
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/shop' element={<ShopPage />} />
         </Routes>
+        
       </BrowserRouter>
     </div>
   );
