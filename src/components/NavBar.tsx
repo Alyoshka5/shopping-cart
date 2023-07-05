@@ -12,7 +12,7 @@ export default function NavBar() {
             <ul>
                 <div className='company-icon'>
                     <h2>TechHub</h2>
-                    <Icon path={mdiChip} size={1.5} />
+                    <Icon path={mdiChip} size={1.6} />
                 </div>
 
                 <li><NavLink to='/' className={`${currentPathClassName}-link`}>Home</NavLink></li>
