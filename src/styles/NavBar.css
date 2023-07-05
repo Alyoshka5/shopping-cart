@@ -40,7 +40,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover {
+li a:hover {
     color: var(--theme-color);
 }
 
