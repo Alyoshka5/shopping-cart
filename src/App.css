@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+    --theme-color: #dc8b82;
+    /* --theme-color: #db9f99; */
+}
+
+.App {
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
