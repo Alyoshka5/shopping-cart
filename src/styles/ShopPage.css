@@ -1,0 +1,12 @@
+.shop-page {
+    height: 100%;
+    padding: 8rem 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop-page .products {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
