@@ -1,0 +1,35 @@
+.quantity-counter {
+    background-color: #e1e1e1;
+    height: calc(2.3rem + 2px);
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5rem;
+}
+
+.quantity-counter .quantity-value {
+    text-align: center;
+    width: 30%;
+    padding: 0.5rem;
+}
+
+.quantity-counter .decrement-button, .quantity-counter .increment-button {
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: #e1e1e1;
+    width: 50%;
+    padding: 0.5rem 0.7rem;
+    border: none;
+}
+.quantity-counter .decrement-button:hover, .quantity-counter .increment-button:hover {
+    background-color: #d1d1d1;
+}
+
+.quantity-counter .decrement-button {
+    text-align: right;
+    border-radius: 5rem 0 0 5rem;
+}
+.quantity-counter .increment-button {
+    text-align: left;
+    border-radius: 0 5rem 5rem 0;
+}

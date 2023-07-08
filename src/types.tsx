@@ -12,4 +12,9 @@ interface Product {
     imageUrl: string;
 }
 
-export type { ProductCardProps }
+interface QuantityCounterProps {
+    quantity: number;
+    setQuantity: Function;
+}
+
+export type { ProductCardProps, QuantityCounterProps }
