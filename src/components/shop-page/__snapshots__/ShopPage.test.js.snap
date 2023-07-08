@@ -149,6 +149,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>
@@ -318,6 +319,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>
@@ -487,6 +489,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>
@@ -656,6 +659,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>
@@ -825,6 +829,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>
@@ -994,6 +999,7 @@ exports[`renders shop page content 1`] = `
         >
           <button
             className="add-to-cart-button"
+            onClick={[Function]}
           >
             Add to Cart
           </button>

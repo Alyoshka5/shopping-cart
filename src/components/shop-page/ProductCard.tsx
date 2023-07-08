@@ -11,8 +11,13 @@ export default function ProductCard({ product, productId, setShoppingCart }: Pro
 
     const starArray = Array.from({ length: product.rating });
     const emptyStarArray = Array.from({ length: 5 - product.rating });
-
     const productName = product.name.length > 60 ? `${product.name.substring(0, 60)}...` : product.name;
+
+    const handleAddToCart = () => {
+        const addedItems = Array(quantity).fill(productId);
+        setShoppingCart((cart: number[]) => [...cart, ...addedItems]);
+        setQuantity(1);
+    }
 
     return (
         <div className="product-card">
@@ -32,7 +37,7 @@ export default function ProductCard({ product, productId, setShoppingCart }: Pro
                     </div>
                 </div>
                 <div className="add-to-cart-container">
-                    <button className="add-to-cart-button">Add to Cart</button>
+                    <button className="add-to-cart-button" onClick={handleAddToCart}>Add to Cart</button>
                     <QuantityCounter quantity={quantity} setQuantity={setQuantity} />
                 </div>
             </div>
