@@ -1,0 +1,1026 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders shop page content 1`] = `
+<div
+  className="shop-page"
+>
+  <div
+    className="products"
+  >
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/61ge3d+MQwL._AC_UF894,1000_QL80_.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              Logitech MX Mechanical Keyboard
+            </div>
+            <div
+              className="price"
+            >
+              $
+              29.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Logitech
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/51dafnlz6wL.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              MacBook Air 13"
+            </div>
+            <div
+              className="price"
+            >
+              $
+              999.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Apple
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/510rNVKkZNL.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              Lumiman LED Lightbulb
+            </div>
+            <div
+              className="price"
+            >
+              $
+              12.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Lumiman
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6287/6287974_sd.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              Amazon Alexa - Echo Dot
+            </div>
+            <div
+              className="price"
+            >
+              $
+              49.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Amazon
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/61tC4ZrTiDL._AC_UF894,1000_QL80_.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              XPRIT 6.5" Hoverboard
+            </div>
+            <div
+              className="price"
+            >
+              $
+              199.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Segway
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="product-card"
+    >
+      <div
+        className="img-container"
+      >
+        <img
+          alt=""
+          src="https://m.media-amazon.com/images/I/81vf4znYbaL.jpg"
+        />
+      </div>
+      <div
+        className="product-info-cart-button-container"
+      >
+        <div
+          className="product-info"
+        >
+          <div
+            className="name-price-container"
+          >
+            <div
+              className="name"
+            >
+              Dell S2421HS 24" Full HD Monitor
+            </div>
+            <div
+              className="price"
+            >
+              $
+              249.99
+            </div>
+          </div>
+          <div
+            className="company"
+          >
+            Dell
+          </div>
+          <div
+            className="rating"
+          >
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+            <svg
+              role="presentation"
+              style={
+                Object {
+                  "height": "1.5rem",
+                  "width": "1.5rem",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                style={
+                  Object {
+                    "fill": "currentColor",
+                  }
+                }
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="add-to-cart-container"
+        >
+          <button
+            className="add-to-cart-button"
+          >
+            Add to Cart
+          </button>
+          <div
+            className="quantity-counter"
+          >
+            <button
+              className="decrement-button"
+              onClick={[Function]}
+            >
+              -
+            </button>
+            <div
+              className="quantity-value"
+            >
+              1
+            </div>
+            <button
+              className="increment-button"
+              onClick={[Function]}
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

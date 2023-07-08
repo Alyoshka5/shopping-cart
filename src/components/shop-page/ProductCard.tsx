@@ -2,8 +2,12 @@ import { ProductCardProps } from "../../types"
 import '../../styles/ProductCard.css';
 import Icon from '@mdi/react';
 import { mdiStar, mdiStarOutline } from '@mdi/js';
+import { useState } from "react";
+import QuantityCounter from "./QuantityCounter";
 
 export default function ProductCard({ product, productId }: ProductCardProps) {
+
+    const [quantity, setQuantity] = useState(1);
 
     const starArray = Array.from({ length: product.rating });
     const emptyStarArray = Array.from({ length: 5 - product.rating });
@@ -23,11 +27,14 @@ export default function ProductCard({ product, productId }: ProductCardProps) {
                     </div>
                     <div className="company">{product.company}</div>
                     <div className="rating">
-                        {starArray.map(() => <Icon path={mdiStar} size={1} />)}
-                        {emptyStarArray.map(() => <Icon path={mdiStarOutline} size={1} />)}
+                        {starArray.map((_, idx) => <Icon path={mdiStar} size={1} key={idx} />)}
+                        {emptyStarArray.map((_, idx) => <Icon path={mdiStarOutline} size={1} key={idx} />)}
                     </div>
                 </div>
-                <button className="add-to-cart-button">Add to Cart</button>
+                <div className="add-to-cart-container">
+                    <button className="add-to-cart-button">Add to Cart</button>
+                    <QuantityCounter quantity={quantity} setQuantity={setQuantity} />
+                </div>
             </div>
         </div>
     )
