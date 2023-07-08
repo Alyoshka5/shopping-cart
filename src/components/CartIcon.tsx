@@ -12,7 +12,7 @@ export default function CartIcon({ shoppingCart }: CartIconProps) {
             </div>
             <div className="item-count">
                 <div className="count-container">
-                    0
+                    {shoppingCart.length}
                 </div>
             </div>
         </div>
