@@ -7,7 +7,7 @@ export default function CartIcon() {
     return (
         <div className="cart">
             <div className="icon">
-                <Icon path={mdiCartOutline} size={1.2} />
+                <Icon path={mdiCartOutline} size={1.3} />
             </div>
             <div className="item-count">
                 <div className="count-container">

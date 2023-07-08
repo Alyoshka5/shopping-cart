@@ -1,8 +1,7 @@
 .cart {
     cursor: pointer;
-    width: 4rem;
-    height: 4rem;
-    padding-top: 0.3rem;
+    width: 3.7rem;
+    height: 3.7rem;
     display: flex;
     align-items: center;
     position: relative;
@@ -13,9 +12,9 @@
 
 .cart .icon {
     background-color: var(--theme-color);
-    width: 3.5rem;
-    height: 3.5rem;
-    padding: 0.9rem;
+    width: 87.5%;
+    height: 87.5%;
+    padding: 21%;
     box-sizing: border-box;
     border-radius: 50%;
     display: flex;
@@ -24,12 +23,13 @@
 }
 
 .cart .item-count {
+    font-size: 95%;
     text-align: center;
     color: #fff;
     background-color: #030141;
-    width: 1.8rem;
-    height: 1.8rem;
-    padding: 0.3rem;
+    width: 45%;
+    height: 42%;
+    padding: 7.5%;
     box-sizing: border-box;
     border-radius: 50%;
     display: flex;
