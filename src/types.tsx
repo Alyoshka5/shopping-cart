@@ -1,6 +1,7 @@
 interface ProductCardProps {
     product: Product;
     productId: number;
+    setShoppingCart: Function;
 }
 
 interface Product {
@@ -17,4 +18,17 @@ interface QuantityCounterProps {
     setQuantity: Function;
 }
 
-export type { ProductCardProps, QuantityCounterProps }
+interface NavBarProps {
+    shoppingCart: number[];
+}
+
+interface CartIconProps {
+    shoppingCart: number[];
+}
+
+interface ShopPageProps {
+    setShoppingCart: Function;
+}
+
+
+export type { ProductCardProps, QuantityCounterProps, NavBarProps, CartIconProps, ShopPageProps }

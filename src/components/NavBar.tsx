@@ -4,8 +4,9 @@ import Icon from '@mdi/react';
 import { mdiChip } from '@mdi/js';
 import { Routes, Route } from 'react-router-dom';
 import CartIcon from './CartIcon';
+import { NavBarProps } from '../types';
 
-export default function NavBar() {
+export default function NavBar({ shoppingCart }: NavBarProps) {
     const currentPath = useLocation().pathname;
     const currentPathClassName = currentPath === '/' ? 'home-path' : 'shop-path';
 
@@ -22,7 +23,7 @@ export default function NavBar() {
             </ul>
 
             <Routes>
-                <Route path='/shop' element={<CartIcon />} />
+                <Route path='/shop' element={<CartIcon shoppingCart={shoppingCart} />} />
             </Routes>
         </nav>
     )

@@ -1,8 +1,9 @@
 import '../styles/CartIcon.css';
 import Icon from '@mdi/react';
 import { mdiCartOutline } from '@mdi/js';
+import { CartIconProps } from '../types';
 
-export default function CartIcon() {
+export default function CartIcon({ shoppingCart }: CartIconProps) {
 
     return (
         <div className="cart">

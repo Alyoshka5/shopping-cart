@@ -5,7 +5,7 @@ import { mdiStar, mdiStarOutline } from '@mdi/js';
 import { useState } from "react";
 import QuantityCounter from "./QuantityCounter";
 
-export default function ProductCard({ product, productId }: ProductCardProps) {
+export default function ProductCard({ product, productId, setShoppingCart }: ProductCardProps) {
 
     const [quantity, setQuantity] = useState(1);
 
