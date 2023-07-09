@@ -164,6 +164,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>
@@ -334,6 +335,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>
@@ -504,6 +506,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>
@@ -674,6 +677,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>
@@ -844,6 +848,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>
@@ -1014,6 +1019,7 @@ exports[`renders shop page content 1`] = `
             </button>
             <div
               className="quantity-value"
+              data-testid="quantity-value"
             >
               1
             </div>

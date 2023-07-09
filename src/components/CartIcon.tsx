@@ -11,7 +11,7 @@ export default function CartIcon({ shoppingCart }: CartIconProps) {
                 <Icon path={mdiCartOutline} size={1.3} />
             </div>
             <div className="item-count">
-                <div className="count-container">
+                <div className="count-container" data-testid='cart-item-count'>
                     {shoppingCart.length}
                 </div>
             </div>

@@ -12,7 +12,7 @@ export default function QuantityCounter({ quantity, setQuantity }: QuantityCount
     return (
         <div className="quantity-counter">
             <button className="decrement-button" onClick={() => {handleQuantityChange(-1)}}>-</button>
-            <div className="quantity-value">{quantity}</div>
+            <div className="quantity-value" data-testid='quantity-value'>{quantity}</div>
             <button className="increment-button" onClick={() => {handleQuantityChange(1)}}>+</button>
         </div>
     );
