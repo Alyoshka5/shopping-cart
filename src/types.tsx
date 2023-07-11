@@ -19,11 +19,11 @@ interface QuantityCounterProps {
 }
 
 interface NavBarProps {
-    shoppingCart: number[];
+    shoppingCart: object;
 }
 
 interface CartIconProps {
-    shoppingCart: number[];
+    shoppingCart: object;
 }
 
 interface ShopPageProps {

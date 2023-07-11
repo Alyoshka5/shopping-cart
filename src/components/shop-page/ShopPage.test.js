@@ -25,7 +25,7 @@ describe('nav bar displays item count', () => {
     });
 
     it('renders 3 on item count of cart icon when cart has 3 items', () => {
-        const cart = [1, 1, 2];
+        const cart = {1: 2, 2: 1};
 
         render(<MemoryRouter initialEntries={['/shop']}><NavBar shoppingCart={cart} /></MemoryRouter>);
         const itemCount = screen.getByTestId('cart-item-count');
@@ -37,7 +37,7 @@ describe('nav bar displays item count', () => {
 describe('adding items to cart', () => {
     it('adds 1 product to cart', async () => {
         const user = userEvent.setup();
-        let cart = [];
+        let cart = {};
         const mockSetShoppingCart = jest.fn((updateFunction) => {
             cart = updateFunction(cart);
         });
@@ -50,12 +50,12 @@ describe('adding items to cart', () => {
             await user.click(cartButton);
         });
 
-        expect(cart).toMatchObject([1]);
+        expect(cart).toMatchObject({1: 1});
     });
 
     it('adds 2 products to cart', async () => {
         const user = userEvent.setup();
-        let cart = [];
+        let cart = {};
         const mockSetShoppingCart = jest.fn((updateFunction) => {
             cart = updateFunction(cart);
         });
@@ -70,12 +70,12 @@ describe('adding items to cart', () => {
             await user.click(cartButtons[1]);
         });
 
-        expect(cart).toMatchObject([0, 1]);
+        expect(cart).toMatchObject({0: 1, 1: 1});
     });
 
     it('adds multiple items of same product to cart', async () => {
         const user = userEvent.setup();
-        let cart = [];
+        let cart = {};
         const mockSetShoppingCart = jest.fn((updateFunction) => {
             cart = updateFunction(cart);
         });
@@ -95,7 +95,7 @@ describe('adding items to cart', () => {
             await user.click(cartButton);
         });
 
-        expect(cart).toMatchObject([1, 1, 1]);
+        expect(cart).toMatchObject({1: 3});
     });
 
     it('resets quantity counter to 1 after add to cart button click', async () => {

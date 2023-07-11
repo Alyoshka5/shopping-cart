@@ -12,7 +12,7 @@ export default function CartIcon({ shoppingCart }: CartIconProps) {
             </div>
             <div className="item-count">
                 <div className="count-container" data-testid='cart-item-count'>
-                    {shoppingCart.length}
+                    {Object.values(shoppingCart).reduce((total, val) => total + val, 0)}
                 </div>
             </div>
         </div>
