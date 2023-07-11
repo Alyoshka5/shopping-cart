@@ -5,15 +5,15 @@ import { QuantityCounterProps } from "../../types";
 export default function QuantityCounter({ quantity, setQuantity }: QuantityCounterProps) {
 
     const handleQuantityChange = (changeValue: number) => {
-        if (quantity + changeValue <= 0) return;
-        setQuantity(quantity + changeValue);
+        if (changeValue <= 0) return;
+        setQuantity(changeValue);
     }
 
     return (
         <div className="quantity-counter">
-            <button className="decrement-button" onClick={() => {handleQuantityChange(-1)}}>-</button>
-            <div className="quantity-value" data-testid='quantity-value'>{quantity}</div>
-            <button className="increment-button" onClick={() => {handleQuantityChange(1)}}>+</button>
+            <button className="decrement-button" onClick={() => {handleQuantityChange(quantity - 1)}}>-</button>
+            <input className="quantity-value" data-testid='quantity-value' type='text' value={quantity || 0} onChange={(e) => handleQuantityChange(parseInt(e.target.value))} />
+            <button className="increment-button" onClick={() => {handleQuantityChange(quantity + 1)}}>+</button>
         </div>
     );
 }

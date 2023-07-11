@@ -162,12 +162,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}
@@ -333,12 +334,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}
@@ -504,12 +506,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}
@@ -675,12 +678,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}
@@ -846,12 +850,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}
@@ -1017,12 +1022,13 @@ exports[`renders shop page content 1`] = `
             >
               -
             </button>
-            <div
+            <input
               className="quantity-value"
               data-testid="quantity-value"
-            >
-              1
-            </div>
+              onChange={[Function]}
+              type="text"
+              value={1}
+            />
             <button
               className="increment-button"
               onClick={[Function]}

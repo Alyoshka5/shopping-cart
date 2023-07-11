@@ -10,7 +10,7 @@ describe('initial render', () => {
         const mockSetQuantity = jest.fn();
 
         render(<QuantityCounter quantity={mockQuantity} setQuantity={mockSetQuantity} />);
-        const quantityValue = screen.getByText('1');
+        const quantityValue = screen.getByDisplayValue('1');
 
         expect(quantityValue).toBeInTheDocument();
     })

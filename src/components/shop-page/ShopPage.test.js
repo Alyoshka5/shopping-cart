@@ -114,12 +114,12 @@ describe('adding items to cart', () => {
         await act(async () => {
             await user.click(incrementButton);
         });
-        expect(quantityValue.textContent).toMatch('2');
+        expect(quantityValue.value).toMatch('2');
         
         await act(async () => {
             await user.click(cartButton);
         });
-        expect(quantityValue.textContent).toMatch('1');
+        expect(quantityValue.value).toMatch('1');
 
     });
 });

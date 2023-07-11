@@ -1,3 +1,41 @@
+/* .quantity-counter {
+    background-color: #fff;
+    height: calc(2.3rem + 2px);
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border: 1px solid #a6a6a6;
+}
+
+.quantity-counter .quantity-value {
+    color: #323232;
+    text-align: center;
+    width: 30%;
+    padding: 0.5rem;
+}
+
+.quantity-counter .decrement-button, .quantity-counter .increment-button {
+    color: #757575;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background-color: #fff;
+    width: 50%;
+    padding: 0.5rem 0.7rem;
+    border: none;
+}
+.quantity-counter .decrement-button:hover, .quantity-counter .increment-button:hover {
+    background-color: #f3f3f3;
+}
+
+.quantity-counter .decrement-button {
+    text-align: right;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.quantity-counter .increment-button {
+    text-align: left;
+    border-radius: 0 0.5rem 0.5rem 0;
+} */
 .quantity-counter {
     background-color: #e1e1e1;
     height: calc(2.3rem + 2px);
@@ -8,9 +46,16 @@
 }
 
 .quantity-counter .quantity-value {
+    font-size: 0.9rem;
     text-align: center;
+    background-color: #e1e1e1;
     width: 30%;
-    padding: 0.5rem;
+    padding: 0.5rem 0.2rem;
+    border: none;
+}
+.quantity-counter .quantity-value:focus {
+    background-color: #d1d1d1;
+    outline: none;
 }
 
 .quantity-counter .decrement-button, .quantity-counter .increment-button {
