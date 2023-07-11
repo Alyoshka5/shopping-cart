@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useRoutes } from 'react-router-dom';
 import '../styles/NavBar.css';
 import Icon from '@mdi/react';
 import { mdiChip } from '@mdi/js';
@@ -23,7 +23,7 @@ export default function NavBar({ shoppingCart }: NavBarProps) {
             </ul>
 
             <Routes>
-                <Route path='/shop' element={<CartIcon shoppingCart={shoppingCart} />} />
+                <Route path={'/shop/*'} element={<CartIcon shoppingCart={shoppingCart} />} />
             </Routes>
         </nav>
     )

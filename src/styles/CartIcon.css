@@ -1,4 +1,4 @@
-.cart {
+.cart-icon {
     cursor: pointer;
     width: 3.7rem;
     height: 3.7rem;
@@ -10,7 +10,8 @@
     background-color: #df786c;
 }
 
-.cart .icon {
+.cart-icon .icon {
+    color: #000;
     background-color: var(--theme-color);
     width: 87.5%;
     height: 87.5%;
@@ -22,8 +23,8 @@
     align-items: center;
 }
 
-.cart .item-count {
-    font-size: 95%;
+.cart-icon .item-count {
+    font-size: 80%;
     text-align: center;
     color: #fff;
     background-color: #030141;
@@ -39,7 +40,7 @@
     bottom: 0;
     right: 0;
 }
-.cart .count-container {
+.cart-icon .count-container {
     text-align: center;
     width: 100%;
 }
