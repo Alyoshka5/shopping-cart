@@ -19,11 +19,11 @@ interface QuantityCounterProps {
 }
 
 interface NavBarProps {
-    shoppingCart: object;
+    shoppingCart: { [key: string]: number };
 }
 
 interface CartIconProps {
-    shoppingCart: object;
+    shoppingCart: { [key: string]: number };
 }
 
 interface ShopPageProps {
@@ -31,11 +31,12 @@ interface ShopPageProps {
 }
 
 interface CartProps {
-    shoppingCart: object;
+    shoppingCart: { [key: string]: number };
 }
 
 interface CartProductRowProps {
     productId: string;
+    shoppingCart: { [key: string]: number };
 }
 
 export type { ProductCardProps, QuantityCounterProps, NavBarProps, CartIconProps, ShopPageProps, CartProps, 
