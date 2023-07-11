@@ -30,5 +30,13 @@ interface ShopPageProps {
     setShoppingCart: Function;
 }
 
+interface CartProps {
+    shoppingCart: object;
+}
 
-export type { ProductCardProps, QuantityCounterProps, NavBarProps, CartIconProps, ShopPageProps }
+interface CartProductRowProps {
+    productId: string;
+}
+
+export type { ProductCardProps, QuantityCounterProps, NavBarProps, CartIconProps, ShopPageProps, CartProps, 
+              CartProductRowProps }

@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/shop'>
             <Route index element={<ShopPage setShoppingCart={setShoppingCart} />} />
-            <Route path='cart' element={<Cart />} />
+            <Route path='cart' element={<Cart shoppingCart={shoppingCart} />} />
           </Route>
         </Routes>
         
