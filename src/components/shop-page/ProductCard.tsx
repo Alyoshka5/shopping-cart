@@ -14,9 +14,12 @@ export default function ProductCard({ product, productId, setShoppingCart }: Pro
     const productName = product.name.length > 60 ? `${product.name.substring(0, 60)}...` : product.name;
 
     const handleAddToCart = () => {
+        if (!(quantity >= 1)) {
+            setQuantity(1);
+            return;
+        }
         setShoppingCart((shoppingCart: { [key: number]: number }) => {
             shoppingCart[productId] = shoppingCart[productId] + quantity || quantity;
-            console.log(shoppingCart)
             return { ...shoppingCart };
         });
         setQuantity(1);
