@@ -1,0 +1,70 @@
+.cart-product-row {
+    height: 15rem;
+    width: 75%;
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 2rem 15rem 1fr 1.5fr;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cart-product-row .price-quantity-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.cart-product-row .remove-item-button {
+    color: #595959;
+    cursor: pointer;
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+.cart-product-row .remove-item-button:hover {
+    background-color: #dcdcdc;
+}
+
+.cart-product-row .img-container {
+    background-color: white;
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cart-product-row img {
+    width: 100%;
+}
+
+.cart-product-row .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.cart-product-row .name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cart-product-row .company {
+    font-size: 0.95rem;
+    color: #595959;
+}
+
+.cart-product-row .price, .cart-product-row .quantity-counter, .cart-product-row .total-price {
+    justify-self: flex-end;
+}
