@@ -32,11 +32,13 @@ interface ShopPageProps {
 
 interface CartProps {
     shoppingCart: { [key: string]: number };
+    setShoppingCart: Function;
 }
 
 interface CartProductRowProps {
     productId: string;
     shoppingCart: { [key: string]: number };
+    setShoppingCart: Function;
 }
 
 export type { ProductCardProps, QuantityCounterProps, NavBarProps, CartIconProps, ShopPageProps, CartProps, 

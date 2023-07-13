@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 import { useState } from 'react';
 
 function App() {
-  const [shoppingCart, setShoppingCart] = useState<{ [key: number]: number }>({});
+  const [shoppingCart, setShoppingCart] = useState<{ [key: number]: number }>({2: 1});
 
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/shop'>
             <Route index element={<ShopPage setShoppingCart={setShoppingCart} />} />
-            <Route path='cart' element={<Cart shoppingCart={shoppingCart} />} />
+            <Route path='cart' element={<Cart shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} />} />
           </Route>
         </Routes>
         

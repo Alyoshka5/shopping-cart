@@ -6,14 +6,19 @@ import { useState } from "react";
 import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
 
-export default function CartProductRow({ productId, shoppingCart }: CartProductRowProps) {
+export default function CartProductRow({ productId, shoppingCart, setShoppingCart }: CartProductRowProps) {
     
     const product = products[parseInt(productId)];
     const [quantity, setQuantity] = useState(shoppingCart[productId]);
 
+    const removeItem = () => {
+        shoppingCart[productId] = 0;
+        setShoppingCart({ ...shoppingCart });
+    }
+
     return (
         <div className="cart-product-row">
-            <button className="remove-item-button"><Icon path={mdiClose} size={1} /></button>
+            <button className="remove-item-button" onClick={() => removeItem()}><Icon path={mdiClose} size={1} /></button>
             
             <div className="img-container">
                 <img src={product.imageUrl} alt="" />
