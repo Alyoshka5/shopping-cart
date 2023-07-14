@@ -20,7 +20,7 @@ export default function Cart({ shoppingCart, setShoppingCart }: CartProps) {
                     </div>
                 </div>
                 {Object.keys(shoppingCart).filter(key => shoppingCart[key] > 0).map((productId: string) => 
-                    <CartProductRow productId={productId} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} />  )
+                    <CartProductRow key={productId} productId={productId} shoppingCart={shoppingCart} setShoppingCart={setShoppingCart} />  )
                 }
             </div>
             
