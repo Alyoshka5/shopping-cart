@@ -7,7 +7,7 @@
     position: relative;
 }
 .cart:hover > .icon {
-    background-color: #df786c;
+    background-color: var(--theme-color-dark);
 }
 
 .cart-icon .icon {

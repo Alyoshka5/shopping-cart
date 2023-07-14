@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import discountCodes from "./discountCodes";
 import products from "./products";
 import { CartSummaryProps } from "../../types";
+import '../../styles/CartSummary.css';
 
 export default function CartSummary({ shoppingCart }: CartSummaryProps) {
     const shippingCost = 0.0;
@@ -38,22 +39,25 @@ export default function CartSummary({ shoppingCart }: CartSummaryProps) {
                         <button type="submit">Submit</button>
                     </div>
                 </form>
-                <div className="summary-row">
-                    <div>Shipping cost</div>
-                    <div>${shippingCost.toFixed(2)}</div>
+                <div className="summary-prices">
+                    <div className="summary-row shipping-cost">
+                        <div>Shipping cost</div>
+                        <div>${shippingCost.toFixed(2)}</div>
+                    </div>
+                    <div className="summary-row discount">
+                        <div>Discount</div>
+                        <div>-${(totalPrice / (1 - discount) * discount).toFixed(2)} ({(discount * 100).toString()}%)</div>
+                    </div>
+                    <div className="summary-row tax">
+                        <div>Sales tax</div>
+                        <div>TBD</div>
+                    </div>
+                    <div className="summary-row total-price">
+                        <div>Estimated Total</div>
+                        <div>${totalPrice.toFixed(2)}</div>
+                    </div>
                 </div>
-                <div className="summary-row">
-                    <div>Discount</div>
-                    <div>-${(totalPrice / (1 - discount) * discount).toFixed(2)} ({(discount * 100).toString()}%)</div>
-                </div>
-                <div className="summary-row">
-                    <div>Sales tax</div>
-                    <div>TBD</div>
-                </div>
-                <div className="summary-row">
-                    <div>Estimated Total</div>
-                    <div>${totalPrice.toFixed(2)}</div>
-                </div>
+                <button className="checkout-button">Checkout</button>
             </div>
     );
 }

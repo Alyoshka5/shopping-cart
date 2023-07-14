@@ -2,7 +2,7 @@
 
 :root {
     --theme-color: #dc8b82;
-    /* --theme-color: #db9f99; */
+    --theme-color-dark: #df786c;
 }
 
 .App {

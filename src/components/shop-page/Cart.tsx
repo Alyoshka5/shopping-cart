@@ -7,8 +7,8 @@ export default function Cart({ shoppingCart, setShoppingCart }: CartProps) {
     
     return (
         <div className="cart">
+            <h1>Cart</h1>
             <div className="content">
-                <h1>Cart</h1>
                 <div className="cart-product-row product-row-header">
                     <div></div>
                     <div></div>
