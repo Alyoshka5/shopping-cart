@@ -16,6 +16,11 @@ export default function CartProductRow({ productId, shoppingCart, setShoppingCar
         setShoppingCart({ ...shoppingCart });
     }
 
+    const updateShoppingCart = (changeValue: number) => {
+        shoppingCart[productId] = changeValue;
+        setShoppingCart({ ...shoppingCart });
+    }
+
     return (
         <div className="cart-product-row">
             <button className="remove-item-button" onClick={() => removeItem()}><Icon path={mdiClose} size={1} /></button>
@@ -32,9 +37,9 @@ export default function CartProductRow({ productId, shoppingCart, setShoppingCar
             <div className="price-quantity-container">
                 <div className="price">${product.price}</div>
                 
-                <QuantityCounter quantity={quantity} setQuantity={setQuantity} />
+                <QuantityCounter quantity={quantity} setQuantity={setQuantity} updateCartOnChange={true} updateShoppingCart={updateShoppingCart} />
                 
-                <div className="total-price">${(product.price * quantity).toFixed(2) || '--'}</div>
+                <div className="total-price">${!isNaN(quantity) ? '' + (product.price * quantity).toFixed(2) : '------'}</div>
             </div>
         </div>
     )

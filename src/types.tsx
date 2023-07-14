@@ -16,6 +16,8 @@ interface Product {
 interface QuantityCounterProps {
     quantity: number;
     setQuantity: Function;
+    updateCartOnChange?: boolean;
+    updateShoppingCart?: Function;
 }
 
 interface NavBarProps {
