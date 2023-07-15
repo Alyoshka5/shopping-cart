@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# TechHub Shopping Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to TechHub, your one-stop destination for all your tech product needs. This shopping cart app allows you to browse and purchase a wide range of different tech products conveniently. Here's a quick guide to using the TechHub app:
 
-## Available Scripts
+## Getting Started
+1. Visit the TechHub homepage to get an overview of the website. The homepage provides valuable information about the purpose of the app.
 
-In the project directory, you can run:
+## Shop Page
+2. Navigate to the Shop page to explore the extensive collection of tech products available. Here, you can browse through various categories, such as monitors, laptops, accessories, and more. Each product is displayed with a name, an image, a rating, and the price.
 
-### `npm start`
+3. Select the desired amount of a product that you want to purchase. You can adjust the quantity by using the provided input field.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4. To add the selected product to your cart, click the 'Add to Cart' button on the product card. The item will be added to your shopping cart.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Shopping Cart Page
+5. Visit the Shopping Cart page to review and manage the products you have added to your cart. Here, you will find a list of the items, along with their details, such as name, quantity, price, and total cost.
 
-### `npm test`
+6. In the Cart Summary section, you will find the following details:
+   - **Discount Code:** Enter a valid discount code to avail any ongoing promotions or special offers.
+   - **Shipping Fee:** Displays the shipping fee for delivering the products to your desired location.
+   - **Discount:** Displays any discounts applied based on the entered discount code.
+   - **Tax Fee:** Displays the tax fee based on the applicable tax rates.
+   - **Estimated Total:** Shows the estimated total cost of your shopping cart, including all fees and discounts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. Review the contents of your shopping cart and the cart summary to ensure accuracy and make any necessary adjustments.
 
-### `npm run build`
+8. When you are ready to complete your purchase, click the 'Checkout' button to proceed to the payment process.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+That's it! With the TechHub shopping cart app, you can conveniently browse, select, and purchase your favorite tech products. Enjoy a seamless shopping experience with TechHub. If you have any questions or need assistance, please reach out to our customer support team. Happy shopping!
