@@ -1,5 +1,5 @@
 import rendrer from 'react-test-renderer';
-import { BrowserRouter, MemoryRouter } from 'react-router-dom';
+import { HashRouter, MemoryRouter } from 'react-router-dom';
 import ShopPage from './ShopPage';
 import NavBar from '../NavBar';
 import ProductCard from './ProductCard';
@@ -9,7 +9,7 @@ import userEvent from "@testing-library/user-event";
 import { act } from 'react-dom/test-utils';
 
 it('renders shop page content', () => {
-    const pageTree = rendrer.create(<BrowserRouter><ShopPage /></BrowserRouter>).toJSON();
+    const pageTree = rendrer.create(<HashRouter><ShopPage /></HashRouter>).toJSON();
 
     expect(pageTree).toMatchSnapshot();
 });
@@ -42,7 +42,7 @@ describe('adding items to cart', () => {
             cart = updateFunction(cart);
         });
 
-        render(<BrowserRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></BrowserRouter>);
+        render(<HashRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></HashRouter>);
         render(<MemoryRouter initialEntries={['/shop']}><NavBar shoppingCart={cart} /></MemoryRouter>);
         const cartButton = screen.getByRole('button', { name: 'Add to Cart' });
 
@@ -60,8 +60,8 @@ describe('adding items to cart', () => {
             cart = updateFunction(cart);
         });
 
-        render(<BrowserRouter><ProductCard product={products[0]} productId={0} setShoppingCart={mockSetShoppingCart} /></BrowserRouter>);
-        render(<BrowserRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></BrowserRouter>);
+        render(<HashRouter><ProductCard product={products[0]} productId={0} setShoppingCart={mockSetShoppingCart} /></HashRouter>);
+        render(<HashRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></HashRouter>);
         render(<MemoryRouter initialEntries={['/shop']}><NavBar shoppingCart={cart} /></MemoryRouter>);
         const cartButtons = screen.getAllByRole('button', { name: 'Add to Cart' });
 
@@ -80,7 +80,7 @@ describe('adding items to cart', () => {
             cart = updateFunction(cart);
         });
 
-        render(<BrowserRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></BrowserRouter>);
+        render(<HashRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></HashRouter>);
         render(<MemoryRouter initialEntries={['/shop']}><NavBar shoppingCart={cart} /></MemoryRouter>);
         const cartButton = screen.getByRole('button', { name: 'Add to Cart' });
         const incrementButton = screen.getByRole('button', { name: '+' });
@@ -105,7 +105,7 @@ describe('adding items to cart', () => {
             cart = updateFunction(cart);
         });
 
-        render(<BrowserRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></BrowserRouter>);
+        render(<HashRouter><ProductCard product={products[1]} productId={1} setShoppingCart={mockSetShoppingCart} /></HashRouter>);
         render(<MemoryRouter initialEntries={['/shop']}><NavBar shoppingCart={cart} /></MemoryRouter>);
         const cartButton = screen.getByRole('button', { name: 'Add to Cart' });
         const incrementButton = screen.getByRole('button', { name: '+' });

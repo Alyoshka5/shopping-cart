@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/home-page/HomePage';
 import ShopPage from './components/shop-page/ShopPage';
 import Cart from './components/shop-page/Cart';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
 
         <NavBar shoppingCart={shoppingCart} />
 
@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Routes>
         
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

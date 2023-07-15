@@ -27,7 +27,7 @@ exports[`renders home page content 1`] = `
     </div>
     <a
       className="call-to-action-button"
-      href="/shop"
+      href="#/shop"
       onClick={[Function]}
     >
       Shop Now
