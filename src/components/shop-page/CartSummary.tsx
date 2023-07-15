@@ -54,7 +54,7 @@ export default function CartSummary({ shoppingCart }: CartSummaryProps) {
                     </div>
                     <div className="summary-row total-price">
                         <div>Estimated Total</div>
-                        <div>${totalPrice.toFixed(2)}</div>
+                        <div data-testid='total-price'>${totalPrice.toFixed(2)}</div>
                     </div>
                 </div>
                 <button className="checkout-button">Checkout</button>
