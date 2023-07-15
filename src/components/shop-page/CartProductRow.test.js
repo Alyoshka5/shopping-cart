@@ -59,7 +59,6 @@ describe('remove item button', () => {
         }
         const user = userEvent.setup();
         const mockSetShoppingCart = jest.fn(newCart => {
-            console.log('removing');
             cart = newCart;
         });
 
