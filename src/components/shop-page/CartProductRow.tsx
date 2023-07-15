@@ -22,8 +22,8 @@ export default function CartProductRow({ productId, shoppingCart, setShoppingCar
     }
 
     return (
-        <div className="cart-product-row">
-            <button className="remove-item-button" onClick={() => removeItem()}><Icon path={mdiClose} size={1} /></button>
+        <div className="cart-product-row" data-testid="cart-product-row">
+            <button className="remove-item-button" data-testid="remove-item-button" onClick={() => removeItem()}><Icon path={mdiClose} size={1} /></button>
             
             <div className="img-container">
                 <img src={product.imageUrl} alt="" />
@@ -39,7 +39,7 @@ export default function CartProductRow({ productId, shoppingCart, setShoppingCar
                 
                 <QuantityCounter quantity={quantity} setQuantity={setQuantity} updateCartOnChange={true} updateShoppingCart={updateShoppingCart} />
                 
-                <div className="total-price">${!isNaN(quantity) ? '' + (product.price * quantity).toFixed(2) : '------'}</div>
+                <div className="total-price" data-testid="product-total-price">${!isNaN(quantity) ? '' + (product.price * quantity).toFixed(2) : '------'}</div>
             </div>
         </div>
     )
