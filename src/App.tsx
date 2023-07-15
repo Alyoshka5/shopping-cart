@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 import { useState } from 'react';
 
 function App() {
-  const [shoppingCart, setShoppingCart] = useState<{ [key: number]: number }>({2: 1});
+  const [shoppingCart, setShoppingCart] = useState<{ [key: number]: number }>({});
 
   return (
     <div className="App">
